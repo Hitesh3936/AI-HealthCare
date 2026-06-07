@@ -58,7 +58,7 @@ VitalSync combines **WHOOP wearable data** (HRV, sleep, recovery, strain) with *
 
 ```mermaid
 graph LR
-    subgraph Step1["① Connect WHOOP"]
+    subgraph Step1["① Connect Wearable"]
         A["OAuth 2.0\nAuthorization"] --> B["Pull Biometrics"]
         B --> B1["HRV · Sleep Stages\nRecovery · Strain · SpO2"]
     end
